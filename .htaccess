@@ -1,0 +1,9 @@
+Options +FollowSymLinks
+
+RewriteEngine On
+
+# Redirect to index.php (no style js or images)
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^/?([^.]*)$ index.php [L]
