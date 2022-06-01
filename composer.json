@@ -1,0 +1,7 @@
+{
+  "name": "motionsystem/energy-global",
+  "description": "PHP developer testcase for Engergy Global company",
+  "require": {
+     "php": ">=7.4"
+  }
+}
